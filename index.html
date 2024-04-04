@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BOX OF WELLNESS - A Cloud Kitchen</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet"/>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Box Of Wellness</h1>
+                    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="menu.html" class="nav-item nav-link">Menu</a>
+                        <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="https://wa.link/pzkw7d" class="btn btn-primary py-2 px-4">Book A Meal</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container my-5 py-5">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br>Delicious Meal</h1>
+                            <p class="text-white animated slideInLeft mb-4 pb-2">"Indulge in the wholesome goodness of our carefully crafted diet meals, designed to delight your taste buds while nourishing your body. Discover a flavorful journey towards a healthier you – because eating well should always be a delicious experience."</p>
+                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Meal</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                            <img class="img-fluid" src="img/hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpeg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpeg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpeg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
+                        <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Box Of Wellness</h1>
+                        <p class="mb-4">At Box of Wellness, we believe that great health starts with great food. We are passionate about providing delicious, nutritious meals that nourish both body and soul. Our mission is to empower individuals to make positive changes through mindful eating and healthy lifestyle choices.</p>
+                        <p class="mb-4">Founded with a vision to redefine the way people approach food and dieting, Box of Wellness offers a comprehensive range of meal plans tailored to meet diverse dietary needs and preferences. Whether you're aiming to lose weight, improve your energy levels, or simply adopt a healthier eating habit, our expertly curated meal plans are designed to support your journey towards optimal wellness.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+                    <h1 class="mb-5">Most Popular Diet Menu</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-walking fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Healthy</small>
+                                    <h6 class="mt-n1 mb-0">Weight-Loss</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Mass</small>
+                                    <h6 class="mt-n1 mb-0">Weight-Gain</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Whole</small>
+                                    <h6 class="mt-n1 mb-0">Pre & Post Workout</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-loss/ice-biriyani.jpeg" alt="" style="width: 80px;">
+                                       <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fermented Rice</span>
+                                                <span class="text-primary">₹45</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Vitamin B6&B12:</b> 15-22%, <b>Kcal:</b> 266, <b>Carbs:</b> 59.27g, <b>Antioxidant Properties</b></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-loss/fruit-salad.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fruit & Veg Salad</span>
+                                                <span class="text-primary">₹59</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 13g, <b>Kcal:</b> 110, <b>Carbs:</b> 20g, <b>Fiber:</b> 12g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-loss/mushroom-curry.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mushroom Curry & Chappathi</span>
+                                                <span class="text-primary">₹69</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 14g, <b>Kcal:</b> 356, <b>Carbs:</b> 54.1g, <b>Fats:</b> 2.7g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-loss/cauliflower-curry.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Cauliflower Curry & Chappathi</span>
+                                                <span class="text-primary">₹69</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 12g, <b>Kcal:</b> 341, <b>Carbs:</b> 48.22g, <b>Fats:</b> 4.9g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-loss/curd-rice.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Curd Rice & Chicken</span>
+                                                <span class="text-primary">₹75</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 23g, <b>Kcal:</b> 322, <b>Carbs:</b> 35.84g, <b>Fats:</b> 8.65g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-loss/keto-chick.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Keto Chicken Meal</span>
+                                                <span class="text-primary">₹85</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 42.5g, <b>Kcal:</b> 370, <b>Carbs:</b> 1.6g, <b>Fats:</b> 18.2g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-gain/pasta.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pasta(Veg / Chicken)</span>
+                                                <span class="text-primary">₹55 / ₹70</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 25g, <b>Kcal:</b> 465, <b>Carbs:</b> 52.82, <b>Fats:</b> 8.57g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-gain/dosa.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Greengram Dosa</span>
+                                                <span class="text-primary">₹55</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 46g, <b>Kcal:</b> 584, <b>Carbs:</b> 41g, <b>Fats:</b> 6.8g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-gain/oats.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fruit Oat Meal</span>
+                                                <span class="text-primary">₹59</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 27g, <b>Kcal:</b> 561, <b>Carbs:</b> 79g, <b>Fats:</b> 13.4g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-gain/pancake.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pancake</span>
+                                                <span class="text-primary">₹59</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 30g, <b>Kcal:</b> 579, <b>Carbs:</b> 87.82g, <b>Fats:</b> 14.59g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-gain/chick-omel.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Omelette</span>
+                                                <span class="text-primary">₹60</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 39.08g, <b>Kcal:</b> 350, <b>Carbs:</b> 0.68g, <b>Fats:</b> 16.7g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/wt-gain/chick-meal.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Meal</span>
+                                                <span class="text-primary">₹85</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 52g, <b>Kcal:</b> 697, <b>Carbs:</b> 56g, <b>Fats:</b> 26.6g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/pre&post/sweet-potato.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sweet Potatos</span>
+                                                <span class="text-primary">₹35</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 2.2g, <b>Kcal:</b> 112, <b>Carbs:</b> 26g, <b>Fiber:</b> 3.9g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/pre&post/whey-drink.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Whey Drink</span>
+                                                <span class="text-primary">₹49</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 29g, <b>Kcal:</b> 283, <b>Carbs:</b> 3.25g, <b>Fats:</b> 1.6g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/pre&post/wheatbread-peanut.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Wheatbread & Peanut Butter</span>
+                                                <span class="text-primary">₹45</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 32.4g, <b>Kcal:</b> 496, <b>Carbs:</b> 40g, <b>Fats:</b> 16.9g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/pre&post/boiledegg.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Boiled Eggs</span>
+                                                <span class="text-primary">₹15</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 6g, <b>Kcal:</b> 78, <b>Carbs:</b> 0.6g, <b>Fats:</b> 5g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/pre&post/sprouts.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sprouts</span>
+                                                <span class="text-primary">₹29</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 17g, <b>Kcal:</b> 148, <b>Carbs:</b> 38g, <b>Fiber:</b> 7.1g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/pre&post/omelette.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Egg Omelette</span>
+                                                <span class="text-primary">₹20</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 7g, <b>Kcal:</b> 94g, <b>Carbs:</b> 0.4g, <b>Fats:</b> 7g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+	<!-- Menu2 -->
+	<div class="container-xxl py-5">
+            <div class="container">
+                
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-11">
+                                <i class="fa fa-apple-alt fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Nutri</small>
+                                    <h6 class="mt-n1 mb-0">Fruit-Cup</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-12">
+                                <i class="fa fa-pizza-slice fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Healthy</small>
+                                    <h6 class="mt-n1 mb-0">Snacks</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-13">
+                                <i class="fa fa-glass-martini-alt fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Tasty</small>
+                                    <h6 class="mt-n1 mb-0">Drinks</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-11" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/fruit-cup/gauva.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Gauva</span>
+                                                <span class="text-primary">₹30</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 4.2g, <b>Kcal:</b> 112, <b>Carbs:</b> 23.6g, <b>Fats:</b> 8.9g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/fruit-cup/papaya.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Papaya</span>
+                                                <span class="text-primary">₹30</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 0.7g, <b>Kcal:</b> 62, <b>Carbs:</b> 16g, <b>Fiber:</b> 2.5g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/fruit-cup/watermelon.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Watermelon</span>
+                                                <span class="text-primary">₹30</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 0.9g, <b>Kcal:</b> 46, <b>Carbs:</b> 12g, <b>Fiber:</b> 0.6g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/fruit-cup/apple.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Apple</span>
+                                                <span class="text-primary">₹35</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 0.5g, <b>Kcal:</b> 104, <b>Carbs:</b> 27.6g, <b>Fiber:</b> 4.8g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/fruit-cup/pineapple.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pineapple</span>
+                                                <span class="text-primary">₹35</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 0.9g, <b>Kcal:</b> 120, <b>Carbs:</b> 13g, <b>Fiber:</b> 1.4g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/fruit-cup/orange.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Orange</span>
+                                                <span class="text-primary">₹35</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 1.6g, <b>Kcal:</b> 73, <b>Carbs:</b> 16.5g, <b>Fiber:</b> 2.8g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-12" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/snacks/banana-dips.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Banana Choco Dips</span>
+                                                <span class="text-primary">₹49</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 11g, <b>Kcal:</b> 167, <b>Carbs:</b> 31g, <b>Fats:</b> 4.45g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/snacks/chicken-vada.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Vada</span>
+                                                <span class="text-primary">₹59</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 36.89g, <b>Kcal:</b> 363, <b>Carbs:</b> 19.34g, <b>Fats:</b> 14.33g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/snacks/chicken-fry.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chicken Fry</span>
+                                                <span class="text-primary">₹59</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 44.32g, <b>Kcal:</b> 293, <b>Carbs:</b> 0g, <b>Fats:</b> 11.58g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/snacks/apple-dips.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Apple Choco Dips</span>
+                                                <span class="text-primary">₹59</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 11g, <b>Kcal:</b> 132.5, <b>Carbs:</b> 32g, <b>Fiber:</b> 4.5g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/snacks/protien-bar.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Protein Bar</span>
+                                                <span class="text-primary">₹69</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 20g, <b>Kcal:</b> 305, <b>Carbs:</b> 24g, <b>Fiber:</b> 5.4g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/snacks/paneer-fry.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paneer Fry</span>
+                                                <span class="text-primary">₹79</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 16.2g, <b>Kcal:</b> 323, <b>Carbs:</b> 4.2g, <b>Fats:</b> 23.13g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-13" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/drinks/fresh-juice.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fresh Juices</span>
+                                                <span class="text-primary">₹10 - ₹50</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Apple</b>, <b>Orange</b>, <b>Papaya</b>, <b>Lemon</b>, <b>Grapes</b>, <b>Watermelon</b></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/drinks/butter-milk.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Buttermilk</span>
+                                                <span class="text-primary">₹15</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 8.5g, <b>Kcal:</b> 101, <b>Carbs:</b> 12.7g, <b>Fats:</b> 2.5g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/drinks/cold-coffee.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Cold Coffee</span>
+                                                <span class="text-primary">₹29</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 5g, <b>Kcal:</b> 122, <b>Carbs:</b> 8.2g, <b>Fats:</b> 10g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/drinks/weightgain-shake.jpeg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Weight Gain Shake</span>
+                                                <span class="text-primary">₹59</span>
+                                            </h5>
+                                            <small class="fst-italic"><b>Protein:</b> 47.5g, <b>Kcal:</b> 582, <b>Carbs:</b> 73g, <b>Fats:</b> 19.84g</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<!-- Menu2 -->
+
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded pt-3">
+                           <div class="p-4">
+                                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                                <h5>Quality Food</h5>
+                                <p>The foundation of a healthy lifestyle begins with the food you eat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                                <h5>Online Order</h5>
+                                <p>Life can be hectic, which is why we've made it easy for you to order your favourite diet meals online.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                                <h5>Home Delivery</h5>
+                                <p>Forget about meal prep – let us bring the goodness of Box of Wellness directly to your doorstep.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                                <h5>24/7 Service</h5>
+                                <p>Your satisfaction is our top priority. We are always available for YOU.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="text-center">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
+                    <h1 class="mb-5">Our Clients Say!!!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>I never thought dieting could be this satisfying! The diverse menu and delicious options from this diet food service have made my weight loss journey enjoyable and sustainable.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Julia</h5>
+                                <small>Professor</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>I'm genuinely impressed with the variety and flavor of the diet meals. It's not just about losing weight; it's about enjoying every bite on the journey to a healthier lifestyle.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpeg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Manoj</h5>
+                                <small>IAS</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>As someone with a busy schedule, these diet meals have been a lifesaver. The convenience, coupled with the delicious taste, has made maintaining a balanced diet effortless.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpeg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Gowthaman</h5>
+                                <small>Entreprenuer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Signing up for this diet meal plan was a game-changer! The nutritious meals have not only helped me achieve my fitness goals but have also made eating healthy an absolute delight.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpeg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Sanjai</h5>
+                                <small>Scientist</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="">About Us</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Reservation</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>06, Pillayar Kovil Street, Thailavaram, Chengalpattu</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 6374759268</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>boxofwellness.diet@gmail.com</p>
+                        <div class="d-flex pt-2">
+		            <a class="btn btn-outline-light btn-social" href="https://wa.link/3pkcmu"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/box_of_wellness/?igsh=MWp2b24yOGNxYmtyNQ%3D%3D"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61556594750626&mibextid=JRoKGi"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <p>06AM - 10PM</p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <p>Become the part of our healthy family, and receive news about healthy food habits.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Join</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Box Of Wellness</a>, All Right Reserved. 
+                            <br>
+                            Developed By <a class="border-bottom" href="https://www.linkedin.com/in/sanjaikumar-b-309066202" target="_blank">SANJAI</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Home</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
